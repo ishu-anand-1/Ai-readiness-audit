@@ -1,7 +1,10 @@
 from fastapi import FastAPI
+
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.routes.audit import router as audit_router
+from app.routes.audit import (
+    router as audit_router
+)
 
 
 # ==================================================
@@ -21,7 +24,7 @@ app = FastAPI(
 
     docs_url="/docs",
 
-    redoc_url="/redoc"
+    redoc_url="/redoc",
 )
 
 
@@ -30,19 +33,23 @@ app = FastAPI(
 # ==================================================
 
 app.add_middleware(
+
     CORSMiddleware,
 
     allow_origins=[
+
         "*"
     ],
 
     allow_credentials=True,
 
     allow_methods=[
+
         "*"
     ],
 
     allow_headers=[
+
         "*"
     ],
 )
@@ -58,7 +65,10 @@ app.include_router(
 
     prefix="",
 
-    tags=["AI Readiness Audit"]
+    tags=[
+
+        "AI Readiness Audit"
+    ],
 )
 
 
@@ -73,13 +83,12 @@ async def root():
 
         "success": True,
 
-        "message": (
-            "AI Readiness Audit API is running successfully 🚀"
-        ),
+        "message":
+            "AI Readiness Audit API is running successfully 🚀",
 
         "version": "1.0.0",
 
-        "docs": "/docs"
+        "docs": "/docs",
     }
 
 
@@ -94,7 +103,8 @@ async def health_check():
 
         "status": "healthy",
 
-        "service": "AI Readiness Audit API"
+        "service":
+            "AI Readiness Audit API",
     }
 
 
@@ -119,6 +129,6 @@ async def api_status():
 
             "AI Summary Generation",
 
-            "Content Structure Analysis"
-        ]
+            "Content Structure Analysis",
+        ],
     }
