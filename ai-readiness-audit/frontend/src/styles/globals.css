@@ -1,0 +1,41 @@
+@import "tailwindcss";
+body {
+
+  background: #030712;
+
+  color: white;
+
+  overflow-x: hidden;
+
+  font-family: Arial, sans-serif;
+}
+
+.glass {
+
+  background:
+    rgba(255,255,255,0.03);
+
+  backdrop-filter:
+    blur(20px);
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+}
+
+.hero-grid {
+
+  background-image:
+
+    linear-gradient(
+      rgba(255,255,255,0.03) 1px,
+      transparent 1px
+    ),
+
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,0.03) 1px,
+      transparent 1px
+    );
+
+  background-size: 50px 50px;
+}
