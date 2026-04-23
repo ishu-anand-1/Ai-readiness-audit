@@ -1,4 +1,4 @@
-# 🚀 AI Readiness Audit
+#  AI Readiness Audit
 
 An AI-powered website auditing platform that analyzes how optimized a website is for AI systems, semantic search engines, and Large Language Models (LLMs).
 
@@ -6,21 +6,20 @@ The platform evaluates AI discoverability, semantic SEO structure, metadata qual
 
 ---
 
-# 🌐 Live Demo
+#  Live Demo
 
 ## Frontend
 
-[PASTE_FRONTEND_DEPLOYMENT_LINK]
+(https://ai-readiness-audit-d3aw.vercel.app/)
 
 ---
 
 ## Github 
-
-[PASTE_BACKEND_DEPLOYMENT_LINK]
+(https://github.com/ishu-anand-1/Ai-readiness-audit/edit/main/ai-readiness-audit)
 
 ---
 
-# ✨ Features
+#  Features
 
 - ✅ AI Readiness Score (0–100)
 - ✅ Semantic SEO Analysis
@@ -38,7 +37,7 @@ The platform evaluates AI discoverability, semantic SEO structure, metadata qual
 
 ---
 
-# 🧠 Problem Statement
+#  Problem Statement
 
 Modern AI systems and Large Language Models (LLMs) do not interpret websites the same way humans do.
 
@@ -48,7 +47,7 @@ This project helps identify structural and semantic weaknesses that reduce AI di
 
 ---
 
-# 🎯 Why AI Readiness Matters
+#  Why AI Readiness Matters
 
 AI-powered systems rely heavily on:
 
@@ -69,7 +68,7 @@ Websites optimized for AI systems may gain:
 
 ---
 
-# 🔍 What The Audit Checks
+#  What The Audit Checks
 
 The AI Readiness Audit evaluates:
 
@@ -86,7 +85,7 @@ The AI Readiness Audit evaluates:
 
 ---
 
-# 🏗️ Architecture
+#  Architecture
 
 ```text
 Frontend (React)
