@@ -15,7 +15,7 @@ The platform evaluates AI discoverability, semantic SEO structure, metadata qual
 ---
 
 ## Github 
-(https://github.com/ishu-anand-1/Ai-readiness-audit/edit/main/ai-readiness-audit)
+(https://github.com/ishu-anand-1/Ai-readiness-audit)
 
 ---
 
